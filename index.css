@@ -1,0 +1,221 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+#fondoCream {
+	background-color: hsl(30, 38%, 92%);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#fondoBlanco {
+	background-color: blueviolet;
+	width: 600px;
+	height: 450px;
+	border-radius: 10px;
+	background-position: left;
+}
+#imagenProducto {
+	content: url(images/image-product-desktop.jpg);
+	width: 300px;
+	height: 450px;
+	float: left;
+	border-radius: 10px 0px 0px 10px;
+}
+#fondoBlanco2 {
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 0 10px 10px 0px;
+	width: 300px;
+	height: 450px;
+	float: right;
+}
+#perfume {
+	font-family: "Montserrat", sans-serif;
+	color: hsl(228, 12%, 48%);
+	font-weight: 500;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+#Gabrielle {
+	font-family: "Fraunces", serif;
+	font-weight: 700;
+	font-size: 26px;
+	width: 197px;
+	height: 91px;
+	margin-top: 26px;
+	margin-left: 30px;
+}
+#floral {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: hsl(228, 12%, 48%);
+	line-height: 20px;
+	margin-left: 30px;
+	margin-top: 36px;
+	margin-right: 47px;
+}
+#precios {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	margin-top: 36px;
+}
+#ultimoPrecio {
+	/* border: solid blue; */
+	color: hsl(158, 36%, 37%);
+	font-family: "Fraunces", serif;
+	font-weight: 700;
+	font-size: 26px;
+	float: left;
+	margin-right: 19px;
+}
+#precioOriginal {
+	text-decoration: line-through;
+	font-size: 12px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	color: hsl(228, 12%, 48%);
+	margin-left: 19px;
+}
+#boton {
+	/* border: solid hsl(158, 36%, 37%); */
+	background-color: hsl(158, 36%, 37%);
+	border-radius: 10px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 236px;
+	height: 49px;
+	color: hsl(0, 0%, 100%);
+	margin-left: 30px;
+	margin-top: 31px;
+}
+#boton:hover {
+	background-color: #1a4031;
+	cursor: pointer;
+}
+#boton img {
+	padding-right: 11px;
+}
+@media screen and (max-width: 700px) {
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+	#fondoCream {
+		/* border: 3px solid red; */
+		background-color: hsl(30, 38%, 92%);
+		width: 100vw;
+		height: 104vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#fondoBlanco {
+		/* border: 3px solid magenta; */
+		background-color: hsl(0, 0%, 100%);
+		border-radius: 10px;
+		width: 343px;
+		height: 614px;
+	}
+	#fondoBlanco2 {
+		/* border: solid; */
+		background-color: hsl(0, 0%, 100%);
+		border-radius: 0px 0px 10px 10px;
+		width: 343px;
+		height: fit-content;
+	}
+	#imagenProducto {
+		content: url(images/image-product-mobile.jpg);
+		/* border: 3px solid orange; */
+		border-radius: 10px 10px 0px 0px; /* LU RU RD LD */
+		width: 343px;
+		height: 241px;
+	}
+	#perfume {
+		font-family: "Montserrat", sans-serif;
+		color: hsl(228, 12%, 48%);
+		font-weight: 500;
+		font-size: 10px;
+		text-transform: uppercase;
+		letter-spacing: 7px;
+		padding: 15px;
+		margin-left: 10px;
+	}
+	#Gabrielle {
+		/* border: solid red; */
+		font-family: "Fraunces", serif;
+		font-weight: 700;
+		font-size: 26px;
+		width: 280px;
+		height: 61px;
+		margin-left: 25px;
+		margin-right: 40px;
+		margin-bottom: 25px;
+	}
+	#floral {
+		font-family: "Montserrat", sans-serif;
+		font-weight: 500;
+		font-size: 14px;
+		color: hsl(228, 12%, 48%);
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-bottom: 35px;
+		/* word-spacing: 1px; */
+		line-height: 20px;
+	}
+	#precios {
+		display: flex;
+		align-items: center;
+		margin-left: 25px;
+		margin-bottom: 20px;
+	}
+	#ultimoPrecio {
+		/* border: solid blue; */
+		color: hsl(158, 36%, 37%);
+		font-family: "Fraunces", serif;
+		font-weight: 700;
+		font-size: 26px;
+		float: left;
+	}
+	#precioOriginal {
+		/* border: solid lightblue; */
+		text-decoration: line-through;
+		font-size: 12px;
+		/* float: right; */
+		font-family: "Montserrat", sans-serif;
+		font-weight: 500;
+		color: hsl(228, 12%, 48%);
+		margin-left: 25px;
+	}
+	#boton {
+		/* border: solid hsl(158, 36%, 37%); */
+		background-color: hsl(158, 36%, 37%);
+		border-radius: 10px;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 700;
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 296px;
+		height: 49px;
+		color: hsl(0, 0%, 100%);
+		margin-left: 25px;
+	}
+	#boton img {
+		padding-right: 11px;
+	}
+	.clearfix {
+		clear: both;
+	}
+}
